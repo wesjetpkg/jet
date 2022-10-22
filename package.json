@@ -1,6 +1,6 @@
 {
   "name": "@wesjetpkg/jet",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "Javascript Client library",
   "master": "dist/master/index.js",
   "module": "dist/module/index.js",
@@ -14,11 +14,12 @@
     "build:module": "tsc -p tsconfig.module.json",
     "docs": "typedoc src/index.ts",
     "docs:json": "typedoc --json docs/spec.json --excludeExternals src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wesjetpkg/jet.git"
+    "url": "https://github.com/wesjetpkg/jet.git"
   },
   "keywords": [
     "Jet",
@@ -50,7 +51,7 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.6.0",
     "rimraf": "^3.0.2",
-    "semantic-release": "^19.0.2",
+    "semantic-release": "^19.0.5",
     "semantic-release-plugin-update-version-in-files": "^1.1.0",
     "testcontainers": "^8.5.1",
     "ts-jest": "^28.0.0",
