@@ -6,7 +6,7 @@ on:
     branches:
       - master
       - jet
-      - wsj
+      - next
   workflow_dispatch:
 
 jobs:

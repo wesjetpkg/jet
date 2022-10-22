@@ -2,7 +2,7 @@
   "branches": [
     { "name": "master" },
     { "name": "jet", "channel": "jet", "prerelease": true },
-    { "name": "wsj", "channel": "wsj", "prerelease": true }
+    { "name": "next", "channel": "next", "prerelease": true }
   ],
   "plugins": [
     [
