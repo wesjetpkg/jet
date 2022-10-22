@@ -1,6 +1,6 @@
 {
   "name": "@wesjetpkg/jet",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "Javascript Client library",
   "master": "dist/master/index.js",
   "module": "dist/module/index.js",
