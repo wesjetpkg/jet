@@ -1,44 +1,28 @@
-<h1 align="left">Jet</h1>
+# [Jet](https://wesjetpkg.github.io/jet/)
 
-Javascript Client library.
+**Wesjet(Pkg) Javascript Client library.**
 
-## :rocket: Technologies ##
+Jet uses [npm](https://www.npmjs.com/) as a package manager.
+## Docs
 
-The following tools were used in this project:
+To build all apps and packages, run the following command:
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-
-## :white_check_mark: Requirements ##
-
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
-
-## :checkered_flag: Starting ##
-
-```bash
-# Clone this project
-$ git clone https://github.com/wesjetpkg/jet.git
-
-# Access
-$ cd jet
-
-# Install dependencies
-$ npm install
-
-# Run the project test
-$ npm run test
-
-# The server will initialize in the <http://localhost:3000>
+```
+npm i @wesjetpkg/jet
 ```
 
-## :memo: License ##
+## Test
+
+To run tests you will need Node 18+.
+
+You are going to need docker daemon running to execute tests.
+
+To start test run use the following command:
+
+```
+ npm run test
+```
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-Made with :heart: by <a href="https://github.com/wesjetpkg" target="_blank">Wesbitty, Inc.</a>
-
-&#xa0;
-
-<a href="#top">Back to top</a>
+Made with :heart: by [Wesbitty, Inc.](https://github.com/wesjetpkg)
